@@ -1,0 +1,7 @@
+sayi=int(input("bir sayi giriniz: "))
+if sayi%3==0 and sayi%5==0 :
+    print("sayi 3 ve 5'e tam bolunur")
+elif sayi%3==0 or sayi%5==0 :
+    print("sayi kismi bolunur")
+else :
+    print("sayi bolunmez")
