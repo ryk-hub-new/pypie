@@ -1,0 +1,9 @@
+                                     
+a=int(input("1.sayi: "))
+b=int(input("2.sayi: "))
+if a<b :
+    print("büyük sayi",b)
+elif a==b:
+    print(a,"ve",b,"sayilari esittir")
+else:
+    print("buyuk sayi",a)
