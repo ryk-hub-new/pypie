@@ -1,0 +1,5 @@
+kat=int(input("kac kat olsun? : "))
+for i in range(kat,0,-1):
+    for j in range (i):
+        print("*",end="")
+    print() 
