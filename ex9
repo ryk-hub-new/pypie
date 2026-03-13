@@ -1,0 +1,6 @@
+liste=[5,8,4,9,15,65,74,32,7,98,14]
+sayi=int(input("Listede aranacak sayi: "))
+if sayi in liste:
+    print("Aradiginiz sayi listede mevcut")
+else:
+    print("Aradiginiz sayi listede mevcut degil")
