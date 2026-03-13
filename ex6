@@ -1,0 +1,3 @@
+liste=[5,8,4,9,15,65,74,32,7,98,14]
+liste.extend([55,44])
+print(liste)
