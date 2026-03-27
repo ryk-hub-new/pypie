@@ -1,0 +1,12 @@
+def enuzun(liste):
+    return max(liste)
+    
+def enkisa(liste):
+    return min(liste)
+liste=[]
+adet=int(input("ogrenci sayisi: "))
+for i in range(adet):
+    boylar=float(input(f"boylari girin: "))
+    liste.append(boylar)
+print("en uzun boy:", enuzun(liste))
+print("en kisa boy:",enkisa(liste) )
