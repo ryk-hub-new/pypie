@@ -1,0 +1,14 @@
+liste=[10,20,30,40]
+
+def liste_yazdirma(liste):
+    return liste
+
+def liste_ortalama(elemanlar):
+    toplam=sum(elemanlar)
+    adet=len(elemanlar)
+    sonuc=toplam/adet
+    return sonuc
+
+print("liste: ",liste_yazdirma(liste))
+ortalama=liste_ortalama(liste)
+print(f"listenin ortalamasi: {ortalama}")
