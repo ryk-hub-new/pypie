@@ -1,0 +1,12 @@
+def fiyat_kontrol(fiyat):
+    if fiyat>=100:
+        indirim=fiyat*0.9
+    elif fiyat>=200:
+        indirim=fiyat*0.8
+    else:
+        print("indirim yok")
+    return indirim
+
+fiyat=float(input("fiyat girin: "))
+
+print("fiyat: ",fiyat_kontrol(fiyat))
