@@ -1,0 +1,9 @@
+liste=[]
+adet=int(input("kac sayi gireceksiniz?: "))
+for i in range(adet) :
+    sayi=int(input(f"sayi:"))
+    liste.append(sayi)
+    if (sayi%2==0):
+        print(f"{sayi} cift ")
+    else:
+        print(f"{sayi} tek")
