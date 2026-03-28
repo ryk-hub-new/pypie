@@ -1,0 +1,10 @@
+k1=int(input("kenar1:"))
+k2=int(input("kenar2:"))
+k3=int(input("kenar3:"))
+k4=int(input("kenar4:"))
+if (k1==k2==k3==k4):
+    print("dortgen bir karedir")
+elif (k1==k2 and k3==k4) or (k1==k3 and k2==k4):
+    print("dortgen dikdortgendir")
+else:
+    print("dortgen cesitkenardir")
